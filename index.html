@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Videography Website</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glass Navbar Over Video</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Background Video -->
+  <video src ="website_test.mp4" autoplay loop muted></video>
+  
+  <!--Header-->
+  <header class="Header">
+    <a hred="#" class="logo">logo</a>
 
-    <!-- Full-screen Background Video -->
-    <video autoplay muted loop playsinline id="bg-video">
-        <source src="website_test.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-
-    <!-- Optional Overlay -->
-    <div id="overlay"></div>
-
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+        
+  </header>
 </body>
 </html>
